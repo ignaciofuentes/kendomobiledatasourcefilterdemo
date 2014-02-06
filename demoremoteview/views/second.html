@@ -1,0 +1,17 @@
+<div data-role="view" data-model="myVm" data-title="People" data-reloffad="true" data-show="peopleLoaded">
+    <header data-role="header">
+        <div data-role="navbar">
+            <a class="nav-button" data-align="left" data-role="backbutton">Back</a>
+            <span data-role="view-title"></span>
+        </div>
+    </header>
+    <ul
+      data-role="listview"
+      data-bind="source: people"
+      data-template="template" data-style="inset">
+  </ul> 
+</div>
+
+<script type="text/x-kendo-template" id="template">     
+   #=name#
+</script>
